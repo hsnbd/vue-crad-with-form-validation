@@ -1,0 +1,151 @@
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.text-center {
+	text-align: center;
+}
+button {
+	padding: 2px 9px;
+	border: none;
+	background: transparent;
+	display: inline-block;
+	color: #5e5e5e;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-image: none !important;
+	border: none;
+	transition: all 0.12s linear 0s !important;
+	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn-primary {color: #fff;background-color: #428bca;border-color: #357ebd;}
+.btn-success {color: #fff;background-color: #5cb85c;border-color: #4cae4c;}
+.btn-info {color: #fff;background-color: #5bc0de;border-color: #46b8da;}
+.btn-warning {color: #fff;background-color: #f0ad4e;border-color: #eea236;}
+.btn-danger {color: #fff;background-color: #d9534f;border-color: #d43f3a;}
+.btn-white {color: #5e5e5e;background-color: #fff;border: 1px solid #e5e9ec;}
+
+.header {
+	border-radius: 50px 50px 0 0;
+	box-shadow: 5px 5px 5px #ccc;
+	text-transform: uppercase;
+	padding: 10px;
+	background: darkblue;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.container {
+	width: 960px;
+	margin: auto;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+table.list {
+	width: 100%;
+	margin-top: 33px;
+}
+table.list tr:nth-of-type(odd){
+	background: #eee;
+}
+table.list th{
+	background: #ccc;
+	color: #fff;
+	padding: 9px;
+}
+table.list td{
+	padding: 7px;
+}
+
+.model {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0, 0.4);
+}
+.modelContainer {
+	width: 630px;
+	background: #fff;
+	margin: auto;
+	margin-top: 44px;
+	box-shadow: 0 0 50px black;
+}
+.modelHeading {
+	padding: 9px;
+	background: #06307C;
+	color: #fff;
+}
+.modelContent {
+	min-height: 333px;
+	padding: 44px;
+}
+.close {
+	background: #D73131;
+	padding: 3px 9px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+table.form input, table.form td {
+	padding: 6px;
+}
+
+p.successMessage, p.errorMessage {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 15px 5px;
+	margin: 22px 0;
+}
+p.successMessage {
+	background: #D8EFC2;
+	color: #097133;
+	border-left: 3px solid #097133;
+}
+p.errorMessage {
+	background: #EFCBC2;
+	color: #D71517;
+	border-left: 3px solid #D71517;
+}
+.xclose {
+	color: #D73131;
+	cursor: pointer;
+	margin-left: 20px;
+	border: none;
+	background: transparent;
+	text-shadow: 0 0 2px black;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.hide {
+	transform: translateX(100px);
+  	opacity: 0;
+}
